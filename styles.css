@@ -1,4 +1,7 @@
 /*Basic styles*/
+* {
+    box-sizing: border-box
+}
 header {
     color: whitesmoke;
     text-align: center;
