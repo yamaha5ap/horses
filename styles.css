@@ -1,5 +1,10 @@
+/*Basic styles*/
 header {
     color: whitesmoke;
+    text-align: center;
+}
+.opening_statement{
+     color: whitesmoke;
     text-align: center;
 }
 body {
@@ -7,4 +12,6 @@ body {
     background-size: cover;
     
 }
-/*Add the song Wild Horses*/
+/*Basic Layout*/
+
+/*Media Quaries*/
