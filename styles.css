@@ -3,7 +3,7 @@ header {
     color: whitesmoke;
     text-align: center;
 }
-.opening_statement{
+.open_statement{
      color: whitesmoke;
     text-align: center;
 }
@@ -12,6 +12,16 @@ body {
     background-size: cover;
     
 }
+ul {
+    list-style: none;
+}
 /*Basic Layout*/
+
+header h1{
+    float: left
+}
+header ul{
+    float: right
+}
 
 /*Media Quaries*/
