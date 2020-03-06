@@ -13,18 +13,12 @@ header {
 body {
     background: url(img/mustang-horse-137559-9923384.jpg) no-repeat;
     background-size: cover;
-    
+    background-position: center;
 }
 ul {
     list-style: none;
 }
 /*Basic Layout*/
 
-header h1{
-    float: left
-}
-header ul{
-    float: right
-}
 
 /*Media Quaries*/
