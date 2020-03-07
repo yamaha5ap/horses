@@ -6,14 +6,17 @@ header {
     color: whitesmoke;
     text-align: center;
 }
+.header-container {
+     background: url(img/mustang-horse-137559-9923384.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .open_statement{
-     color: whitesmoke;
+     color: burlywood;
     text-align: center;
 }
 body {
-    background: url(img/mustang-horse-137559-9923384.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
 ul {
     list-style: none;
