@@ -15,7 +15,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Donations</a></li>
-                <li><a href="https://wildhorseeducation.org/questions-and-answers/big-energy-and-wild-horses/">Info</a></li>
+                <li><a href="https://wildhorseeducation.org/questions-and-answers/big-energy-and-wild-horses/" target="_blank">Info</a></li>
             </ul>
           </nav>
         </header>
@@ -26,10 +26,35 @@
                 <h2 >Beauty In Motion</h2>
             </div>
             <h3>We need to save this beauty while we can!</h3>
-            <p>These beautiful animals are quickly losing ground against the fracking companies, literaly and figurativly.  Big Energy is encroaching on the land that is set aside for wild herds. These areas are called Herd Management Areas designated by the Federal Land Policy Management Act or FLPMA.  These Herd Management Areas are shown on the map below.</p>
+            <p>These beautiful animals are quickly losing ground against the fracking companies, literaly and figurativly.  Big Energy is encroaching on the land that is set aside for wild herds. These areas are called Herd Management Areas designated by the Federal Land Policy Management Act or FLPMA.  These Herd Management Areas are shown on the map below. As you can see these horses already don't have alot of space. We can't let Big Energy take any more land away from these inocent animals</p>
             <img src="img/western_us_hma.jpg" alt="HMA map">
+            <p>For more information of big energy companies devastaing these herd areas, click on this <a href="https://wildhorseeducation.org/questions-and-answers/big-energy-and-wild-horses/">Info</a> link or the one at the top of the page.</p>
         </main>
         
+        <!--Newsletter Sign-Up-->
+        
+        <form action="index.html" method="post">
+        <h1>Newsletter Sign Up</h1>
+        <fieldset>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
+            
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phone" name="user_phone">
+            
+            <label>Age:</label>
+            <input type="radio" id="under_13" name="user_age"><label for="under_13" class="light">Under 13</label>
+            <input type="radio" id="over_13" name="user_age"><label for="over_13" class="light">13 or Older</label><br>
+            
+            <label>Types of Notification:</label><br>
+            <input type="checkbox" id="email" value="notification_email" name="user_notification"><label for="email" class="light">Email</label><br>
+            <input type="checkbox" id="txt-sms" value="notification_txt-sms" name="user_notifaction"><label for="txt-sms" class="light">Text or SMS</label>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+      </form>
         <footer>
         </footer>
     </body>
