@@ -96,10 +96,23 @@ input[type="checkbox"] {
 @media (min-width: 576px) { ... }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    main{
+        float: left;
+        width: 60%;
+        margin-left: 30px;
+    }
+    aside, .newsletter{
+        float: right;
+        width: 40%;
+        margin-right: 30px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
