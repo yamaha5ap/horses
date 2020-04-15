@@ -17,3 +17,14 @@
     });
   }, false);
 })();
+
+//   NEWSLETTER     //
+
+var newsletter = document.querySelector(".newsletter");
+
+//Hide the newsletter sign up
+$(newsletter).hide();
+// When the button is pressed 
+$('.newsletter_btn').on('click', function(){
+  //Show the newsletter
+  $(newsletter).show();
