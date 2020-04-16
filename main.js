@@ -1,5 +1,5 @@
 //   DONATE SUBMIT BUTTON     //
-// Example starter JavaScript for disabling form submissions if there are invalid fields
+// Disabling form submissions if there are invalid fields
 (function() {
   'use strict';
   window.addEventListener('load', function() {
@@ -20,11 +20,43 @@
 
 //   NEWSLETTER     //
 
-var newsletter = document.querySelector(".newsletter");
+//var newsletter = document.querySelector("#newsletter");
 
 //Hide the newsletter sign up
-$(newsletter).hide();
-// When the button is pressed 
-$('.newsletter_btn').on('click', function(){
+
+window.onload = function() {
+  document.getElementById('newsletter').style.display = 'none';
+};
+
+
+//$(document).ready(function(){
+//    $(newsletter).hide();
+//});
   //Show the newsletter
-  $(newsletter).show();
+$('.newsletter_btn').on('click', function(){
+  $(newsletter).show()
+});
+
+//function myFunction() {
+//  var x = document.getElementById("newsletter");
+//  if (x.style.display === "none") {
+//    x.style.display = "block";
+//  } else {
+//    x.style.display = "none";
+//  }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

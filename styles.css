@@ -5,17 +5,22 @@
 header {
     color: whitesmoke;
     text-align: center;
+    display: flex;
 }
 .header-container {
      background: url(img/mustang-horse-137559-9923384.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    padding-bottom: 10px;
+}
+nav a {
+    color: whitesmoke;
 }
 
 a {
     color: burlywood;
 }
-a visited {
+a hover {
     color:aqua;
 }
 .open_statement{
@@ -93,15 +98,28 @@ input[type="checkbox"] {
 /*Media Quaries*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) {
+    .title{
+        flex: auto;
+    }
+    nav{
+        flex: auto;
+        flex-direction: column;
+    }
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    
+    .header-container {
+        padding-bottom: 150px;
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .header-container {
+        padding-bottom: 275px;
+    }
     main{
         float: left;
         width: 60%;
@@ -112,10 +130,21 @@ input[type="checkbox"] {
         width: 40%;
         margin-right: 30px;
     }
+    .title{
+        flex: left;
+    }
+    nav{
+        flex: right;
+        flex-direction: row;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    .header-container {
+        padding-bottom: 425px;
+    }
+}
 
 
 
