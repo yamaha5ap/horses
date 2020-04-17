@@ -24,11 +24,11 @@ a hover {
     color:aqua;
 }
 .open_statement{
-     color: burlywood;
+     color: chocolate;
     text-align: center;
 }
-body {
-   
+.container {
+   display: flex;
 }
 ul {
     list-style: none;
@@ -121,14 +121,16 @@ input[type="checkbox"] {
         padding-bottom: 275px;
     }
     main{
-        float: left;
+        flex: left;
         width: 60%;
         margin-left: 30px;
+        margin-right: auto;
     }
     aside, .newsletter{
-        float: right;
+        flex: right;
         width: 40%;
         margin-right: 30px;
+        margin-left: auto;
     }
     .title{
         flex: left;
