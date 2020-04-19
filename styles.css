@@ -120,8 +120,10 @@ input[type="checkbox"] {
     .header-container {
         padding-bottom: 275px;
     }
+/*
     main{
         display: inline-flex;
+        flex-direction: row;
         flex-wrap: wrap;
         width: 60%;
         margin-left: 30px;
@@ -129,11 +131,13 @@ input[type="checkbox"] {
     }
     aside, .newsletter{
         display: inline-flex;
+        flex-direction: row;
         flex-wrap: wrap;
         width: 40%;
         margin-right: 30px;
         margin-left: 5px;
     }
+*/
     .title{
         flex: left;
     }
