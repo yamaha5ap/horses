@@ -121,16 +121,18 @@ input[type="checkbox"] {
         padding-bottom: 275px;
     }
     main{
-        flex: left;
+        display: inline-flex;
+        flex-wrap: wrap;
         width: 60%;
         margin-left: 30px;
-        margin-right: auto;
+        margin-right: 5px;
     }
     aside, .newsletter{
-        flex: right;
+        display: inline-flex;
+        flex-wrap: wrap;
         width: 40%;
         margin-right: 30px;
-        margin-left: auto;
+        margin-left: 5px;
     }
     .title{
         flex: left;

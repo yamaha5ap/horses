@@ -34,7 +34,7 @@ $(document).ready(function(){
 });
   //Show the newsletter
 $('.newsletter_btn').on('click', function(){
-  $(newsletter).show()
+  $(newsletter).toggle()
 });
 
 //function myFunction() {
