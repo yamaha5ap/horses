@@ -20,18 +20,6 @@
 
 //   NEWSLETTER     //
 
-//var newsletter = document.querySelector("#newsletter");
-
-//Hide the newsletter sign up
-
-//window.onload = function() {
-//  document.getElementById('newsletter').style.display = 'none';
-//};
-
-
-$(document).ready(function(){
-    $(newsletter).hide();
-});
   //Show the newsletter
 $('.newsletter_btn').on('click', function(){
   $(newsletter).toggle()
