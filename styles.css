@@ -1,4 +1,4 @@
-/*Basic styles*/
+/*Basic styles HOME*/
 * {
     box-sizing: border-box
 }
@@ -12,7 +12,7 @@ header {
     background-size: cover;
     background-position: center;
     padding-bottom: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 nav a {
     color: whitesmoke;
@@ -38,6 +38,10 @@ ul {
     margin-top: 48px;
     color: chocolate;
     text-align: center;
+}
+div.container-fluid {
+    background-color: beige;
+    margin: 0;
 }
 /*Newsletter Sign Up*/
 
@@ -104,6 +108,17 @@ input[type="checkbox"] {
   margin: 0 4px 8px 0;
 }
 
+/*Basic styles GALLERY*/
+
+body.gallery_body {
+    background-color: beige;
+}
+.home_anchor {
+    margin-left: 40%;
+}
+a.home_anchor hover {
+    color:aqua;
+}
 
 /*Media Quaries*/
 
@@ -130,24 +145,6 @@ input[type="checkbox"] {
     .header-container {
         padding-bottom: 275px;
     }
-/*
-    main{
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 60%;
-        margin-left: 30px;
-        margin-right: 5px;
-    }
-    aside, .newsletter{
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 40%;
-        margin-right: 30px;
-        margin-left: 5px;
-    }
-*/
     .title{
         flex: left;
     }
