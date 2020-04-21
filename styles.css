@@ -120,6 +120,16 @@ a.home_anchor hover {
     color:aqua;
 }
 
+/* MODAL styles */
+
+#makeADonation {
+    display: inline;
+    color:chocolate;
+}
+button.close {
+    text-align: right;
+}
+
 /*Media Quaries*/
 
 /* Small devices (landscape phones, 576px and up)*/

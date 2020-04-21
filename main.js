@@ -18,6 +18,12 @@
   }, false);
 })();
 
+//   DONATE RESET BUTTON     //
+
+$('#form_reset').click(function(){
+            $('#donate_form')[0].reset();
+ });
+
 //   NEWSLETTER     //
 
   //Show the newsletter
