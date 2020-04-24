@@ -43,6 +43,11 @@ div.container-fluid {
     background-color: beige;
     margin: 0;
 }
+footer {
+    background-color: blanchedalmond;
+    color: red;
+    padding-left: 30px;
+}
 /*Newsletter Sign Up*/
 
 #newsletter {
