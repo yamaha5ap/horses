@@ -16,12 +16,13 @@ header {
 }
 nav a {
     color: whitesmoke;
+    display: inline-flex;
 }
 
 a {
-    color: burlywood;
+    color: cornflowerblue;
 }
-a hover {
+a:hover {
     color:aqua;
 }
 .open_statement{
@@ -45,7 +46,7 @@ div.container-fluid {
 }
 footer {
     background-color: blanchedalmond;
-    color: red;
+    color: tomato;
     padding-left: 30px;
 }
 /*Newsletter Sign Up*/
@@ -55,7 +56,7 @@ footer {
 }
 
 form {
-  max-width: 300px;
+  max-width: 550px;
   margin: 10px auto;
   padding: 10px 20px;
   background: #f4f7f8;
@@ -170,13 +171,6 @@ button.close {
 @media (min-width: 992px) {
     .header-container {
         padding-bottom: 275px;
-    }
-    .title{
-        flex: left;
-    }
-    nav{
-        flex: right;
-        flex-direction: row;
     }
 }
 
