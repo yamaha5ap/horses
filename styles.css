@@ -64,10 +64,18 @@ form {
 }
 
 button {
-  font-style: normal;
-  width: 100%;
-  box-shadow: 0 3px 0 rgba(255,255,255,0.1) inset;
-  margin-bottom: 10px;
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    background-color: #4bc970;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: 2px solid #3ac162;
+    border-width: 2px 2px 4px;
+    width: 95%;
+    box-shadow: 0 3px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
 }
 
 fieldset {
@@ -133,6 +141,7 @@ a.home_anchor hover {
     width: 90%;
 }
 #pic_subtitle {
+    font-size: 1.5rem;
     text-align: center;
     color: chocolate;
 }
