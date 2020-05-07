@@ -35,6 +35,14 @@ a:hover {
 ul {
     list-style: none;
 }
+.hma_map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 478px;
+    max-height: 309px;
+}
 .about {
     margin-top: 48px;
     color: chocolate;
